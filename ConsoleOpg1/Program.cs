@@ -10,6 +10,11 @@ namespace ConsoleOpg1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Skriv dit navn");
+            String Navn = Console.ReadLine();
+            String StortNavn = Navn.ToUpper();
+            Console.WriteLine("Dit navn er " + StortNavn);
+            Console.ReadKey();
         }
     }
 }
